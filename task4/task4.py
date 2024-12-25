@@ -23,6 +23,7 @@ def get_min_steps():
     steps = sum(abs(num - mediana) for num in nums)
     return steps
 
+
 def main():
     print(get_min_steps())
 
